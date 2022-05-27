@@ -14,7 +14,7 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 ## Latona における SAP 領域・機能ごと の リソース整備状況    
 下の図において、チェックマークが付いているリソースが、Latonaにおいて(少なくとも1次の)整備が行われたものであり、github上に公開されています。  
 
-![リソース整備状況](documents/sap-sandbox-c4hana.drawio.png)
+![リソース整備状況](documents/sap-sandbox-c4hana_20220527.drawio.png)
 
 ## 各リソースの所在  
 各リソースの所在は、次の箇所です。  
@@ -29,17 +29,25 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 
 * [sap-business-user-sql-c4](https://github.com/latonaio/sap-business-user-sql-c4)
 * [sap-business-partner-sql-c4](https://github.com/latonaio/sap-business-partner-sql-c4)
+* [sap-competitor-sql](https://github.com/latonaio/sap-competitor-sql)
+* [sap-product-sql-c4](https://github.com/latonaio/sap-product-sql-c4)
 
 ### Touch Points
 ##### READS
 
 * [sap-api-integrations-contact-reads](https://github.com/latonaio/sap-api-integrations-contact-reads)
+* [sap-api-integrations-activity-reads](https://github.com/latonaio/sap-api-integrations-activity-reads)
+* [sap-api-integrations-chat-activity-reads](https://github.com/latonaio/sap-api-integrations-chat-activity-reads)
 * [sap-api-integrations-campaign-reads](https://github.com/latonaio/sap-api-integrations-campaign-reads)
+* [sap-api-integrations-promotion-reads](https://github.com/latonaio/sap-api-integrations-promotion-reads)
 
 ##### SQL
 
 * [sap-contact-sql](https://github.com/latonaio/sap-contact-sql)
+* [sap-activity-sql](https://github.com/latonaio/sap-activity-sql)
+* [sap-chat-activity-sql](https://github.com/latonaio/sap-chat-activity-sql)
 * [sap-campaign-sql](https://github.com/latonaio/sap-campaign-sql)
+* [sap-promotion-sql](https://github.com/latonaio/sap-promotion-sql)
 
 ### Operations
 ##### READS
@@ -49,6 +57,7 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 ##### SQL
 
 * [sap-contract-sql](https://github.com/latonaio/sap-contract-sql)
+* [sap-sales-orders-sql](https://github.com/latonaio/sap-sales-orders-sql)
 
 ## sap-sandbox-c4hana における SAP領域・機能 の選択基準
 sap-sandbox-c4hana におけるSAP領域・機能は、SAP C4HANA のあらゆる領域・機能のうち、世界中の企業で繰り返し利用される、利用頻度の高いものと判断されるものが、選択されています。  
