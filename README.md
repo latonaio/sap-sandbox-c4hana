@@ -14,7 +14,7 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 ## Latona における SAP 領域・機能ごと の リソース整備状況    
 下の図において、チェックマークが付いているリソースが、Latonaにおいて(少なくとも1次の)整備が行われたものであり、github上に公開されています。  
 
-![リソース整備状況](documents/sap-sandbox-c4hana_20220527.drawio.png)
+![リソース整備状況](documents/sap-sandbox-c4hana.drawio.png)
 
 ## 各リソースの所在  
 各リソースの所在は、次の箇所です。  
@@ -53,11 +53,31 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 ##### READS
 
 * [sap-api-integrations-contract-reads](https://github.com/latonaio/sap-api-integrations-contract-reads)
+* [sap-api-integrations-sales-orders-reads-c4](https://github.com/latonaio/sap-api-integrations-sales-orders-reads-c4)
+* [sap-api-integrations-sales-price-and-discount-list-reads](https://github.com/latonaio/sap-api-integrations-sales-price-and-discount-list-reads)
 
 ##### SQL
 
 * [sap-contract-sql](https://github.com/latonaio/sap-contract-sql)
 * [sap-sales-orders-sql](https://github.com/latonaio/sap-sales-orders-sql)
+* [sap-sales-price-and-discount-list-sql](https://github.com/latonaio/sap-sales-price-and-discount-list-sql)
+
+### Employee
+##### READS
+* [sap-api-integrations-job-definition-reads](https://github.com/latonaio/sap-api-integrations-job-definition-reads)
+
+##### SQL
+* [sap-employee-basic-data-sql](https://github.com/latonaio/sap-employee-basic-data-sql)
+* [sap-job-definition-sql](https://github.com/latonaio/sap-job-definition-sql)
+* [sap-time-entry-sql](https://github.com/latonaio/sap-time-entry-sql)
+
+
+### Authentication
+##### READS
+* [sap-api-integrations-identity-reads](https://github.com/latonaio/sap-api-integrations-identity-reads)
+
+##### SQL
+* [sap-identity-sql](https://github.com/latonaio/sap-identity-sql)
 
 ## sap-sandbox-c4hana における SAP領域・機能 の選択基準
 sap-sandbox-c4hana におけるSAP領域・機能は、SAP C4HANA のあらゆる領域・機能のうち、世界中の企業で繰り返し利用される、利用頻度の高いものと判断されるものが、選択されています。  
