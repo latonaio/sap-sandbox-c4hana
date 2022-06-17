@@ -21,7 +21,7 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 * [sap-api-integrations-business-user-reads-c4](https://github.com/latonaio/sap-api-integrations-business-user-reads-c4)
 * [sap-api-integrations-business-partner-reads-c4](https://github.com/latonaio/sap-api-integrations-business-partner-reads-c4)
 * [sap-api-integrations-competitor-reads-c4](https://github.com/latonaio/sap-api-integrations-competitor-reads-c4)
-* [sap-api-integrations-product-reads-c4]
+* [sap-api-integrations-product-reads-c4](https://github.com/latonaio/sap-api-integrations-product-reads-c4)
 
 ##### SQL
 
@@ -54,17 +54,17 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 
 * [sap-api-integrations-contract-reads](https://github.com/latonaio/sap-api-integrations-contract-reads)
 * [sap-api-integrations-sales-orders-reads-c4](https://github.com/latonaio/sap-api-integrations-sales-orders-reads-c4)
-* [sap-api-integrations-sales-points-of-delivery-reads-c4]
+* [sap-api-integrations-sales-points-of-delivery-reads-c4](https://github.com/latonaio/sap-api-integrations-sales-points-of-delivery-reads-c4)
 * [sap-api-integrations-sales-price-and-discount-list-reads](https://github.com/latonaio/sap-api-integrations-sales-price-and-discount-list-reads)
-* [sap-api-integrations-payments-reads-c4]
+* [sap-api-integrations-payments-reads-c4](https://github.com/latonaio/sap-api-integrations-payments-reads-c4)
 
 ##### SQL
 
 * [sap-contract-sql](https://github.com/latonaio/sap-contract-sql)
 * [sap-sales-orders-sql](https://github.com/latonaio/sap-sales-orders-sql)
-* [sap-sales-points-of-delivery-sql]
+* [sap-sales-points-of-delivery-sql](https://github.com/latonaio/sap-sales-points-of-delivery-sql)
 * [sap-sales-price-and-discount-list-sql](https://github.com/latonaio/sap-sales-price-and-discount-list-sql)
-* [sap-payments-sql]
+* [sap-payments-sql](https://github.com/latonaio/sap-payments-sql)
 
 ### Employee
 ##### READS
