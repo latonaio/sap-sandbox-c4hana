@@ -1,7 +1,3 @@
-<p align="center"> <img src="https://user-images.githubusercontent.com/91356865/144049159-1ebbd095-87d2-4a3c-81cb-277cc1d4c7b7.png" width="300"> </p> <p align="center"> Starting Up the API Environment on a "Full-of-Beans" SandBox </p>
-
-***
-
 # sap-sandbox-c4hana 
 sap-sandbox-c4hana は、主にエッジコンピューティング環境において、外部システムをSAP C4HANAと統合することを目的として作成されたリソースをまとめたリポジトリです。  
 sap-sandbox の 「sandbox」は、Netflix 韓国ドラマ 「START-UP」 より、すべての開発者のための 地ならし になればという想いから命名されました。  
@@ -24,11 +20,15 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 
 * [sap-api-integrations-business-user-reads-c4](https://github.com/latonaio/sap-api-integrations-business-user-reads-c4)
 * [sap-api-integrations-business-partner-reads-c4](https://github.com/latonaio/sap-api-integrations-business-partner-reads-c4)
+* [sap-api-integrations-competitor-reads-c4](https://github.com/latonaio/sap-api-integrations-competitor-reads-c4)
+* [sap-api-integrations-product-reads-c4]
 
 ##### SQL
 
+* [sap-account-and-individual-customer-master-sql](https://github.com/latonaio/sap-account-and-individual-customer-master-sql)
 * [sap-business-user-sql-c4](https://github.com/latonaio/sap-business-user-sql-c4)
 * [sap-business-partner-sql-c4](https://github.com/latonaio/sap-business-partner-sql-c4)
+* [sap-api-integrations-business-partner-relationship-reads ](https://github.com/latonaio/sap-api-integrations-business-partner-relationship-reads )
 * [sap-competitor-sql](https://github.com/latonaio/sap-competitor-sql)
 * [sap-product-sql-c4](https://github.com/latonaio/sap-product-sql-c4)
 
@@ -54,13 +54,17 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 
 * [sap-api-integrations-contract-reads](https://github.com/latonaio/sap-api-integrations-contract-reads)
 * [sap-api-integrations-sales-orders-reads-c4](https://github.com/latonaio/sap-api-integrations-sales-orders-reads-c4)
+* [sap-api-integrations-sales-points-of-delivery-reads-c4]
 * [sap-api-integrations-sales-price-and-discount-list-reads](https://github.com/latonaio/sap-api-integrations-sales-price-and-discount-list-reads)
+* [sap-api-integrations-payments-reads-c4]
 
 ##### SQL
 
 * [sap-contract-sql](https://github.com/latonaio/sap-contract-sql)
 * [sap-sales-orders-sql](https://github.com/latonaio/sap-sales-orders-sql)
+* [sap-sales-points-of-delivery-sql]
 * [sap-sales-price-and-discount-list-sql](https://github.com/latonaio/sap-sales-price-and-discount-list-sql)
+* [sap-payments-sql]
 
 ### Employee
 ##### READS
@@ -89,4 +93,4 @@ sap-sandbox-c4hana において ある機能 に対して SQL を 作成する�
 * 当該機能の平均的要求に、外部システムから帳票を出力することが含まれるかどうか  
 
 上記基準のいずれかに当てはまれば、sap-sandbox-c4hanaにおいて SQL が作成され、該当するレポジトリが存在します。  
-なお、SAP C4HANA API にて READ API が公開されていない機能については、sap-sandbox-c4hana において SQL は作成されません。  
+なお、SAP C4HANA API にて READ API が公開されていない機能については、sap-sandbox-c4hana において SQL は作成されません。
