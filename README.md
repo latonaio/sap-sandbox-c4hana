@@ -10,7 +10,7 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 ## Latona における SAP 領域・機能ごと の リソース整備状況    
 下の図において、チェックマークが付いているリソースが、Latonaにおいて(少なくとも1次の)整備が行われたものであり、github上に公開されています。  
 
-![リソース整備状況](documents/sap-sandbox-c4hana.drawio.png)
+![リソース整備状況](documents/sap-sandbox-c4hana_20220809.drawio.png)
 
 ## 各リソースの所在  
 各リソースの所在は、次の箇所です。  
@@ -20,6 +20,7 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 
 * [sap-api-integrations-business-user-reads-c4](https://github.com/latonaio/sap-api-integrations-business-user-reads-c4)
 * [sap-api-integrations-business-partner-reads-c4](https://github.com/latonaio/sap-api-integrations-business-partner-reads-c4)
+* [sap-api-integrations-business-partner-relationship-reads](https://github.com/latonaio/sap-api-integrations-business-partner-relationship-reads)
 * [sap-api-integrations-competitor-reads-c4](https://github.com/latonaio/sap-api-integrations-competitor-reads-c4)
 * [sap-api-integrations-product-reads-c4](https://github.com/latonaio/sap-api-integrations-product-reads-c4)
 
@@ -69,6 +70,7 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 ### Employee
 ##### READS
 * [sap-api-integrations-job-definition-reads](https://github.com/latonaio/sap-api-integrations-job-definition-reads)
+* [sap-api-integrations-time-entry-reads](https://github.com/latonaio/sap-api-integrations-time-entry-reads)
 
 ##### SQL
 * [sap-employee-basic-data-sql](https://github.com/latonaio/sap-employee-basic-data-sql)
@@ -82,6 +84,17 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 
 ##### SQL
 * [sap-identity-sql](https://github.com/latonaio/sap-identity-sql)
+
+### Marketing
+##### READS
+* [sap-api-integrations-survey-reads](https://github.com/latonaio/sap-api-integrations-survey-reads)
+* [sap-api-integrations-survey-response-reads](https://github.com/latonaio/sap-api-integrations-survey-response-reads)
+
+##### SQL
+* [sap-survey-sql](https://github.com/latonaio/sap-survey-sql)
+* [sap-survey-response-sql](https://github.com/latonaio/sap-survey-response-sql)
+
+
 
 ## sap-sandbox-c4hana における SAP領域・機能 の選択基準
 sap-sandbox-c4hana におけるSAP領域・機能は、SAP C4HANA のあらゆる領域・機能のうち、世界中の企業で繰り返し利用される、利用頻度の高いものと判断されるものが、選択されています。  
