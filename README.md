@@ -10,7 +10,7 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 ## Latona における SAP 領域・機能ごと の リソース整備状況    
 下の図において、チェックマークが付いているリソースが、Latonaにおいて(少なくとも1次の)整備が行われたものであり、github上に公開されています。  
 
-![リソース整備状況](documents/sap-sandbox-c4hana_20220812.drawio.png)
+![リソース整備状況](documents/sap-sandbox-c4hana-20220812.drawio.png)
 
 ## 各リソースの所在  
 各リソースの所在は、次の箇所です。  
@@ -23,6 +23,7 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 * [sap-api-integrations-business-partner-relationship-reads](https://github.com/latonaio/sap-api-integrations-business-partner-relationship-reads)
 * [sap-api-integrations-competitor-reads-c4](https://github.com/latonaio/sap-api-integrations-competitor-reads-c4)
 * [sap-api-integrations-product-reads-c4](https://github.com/latonaio/sap-api-integrations-product-reads-c4)
+* [sap-api-integrations-competitor-product-reads-c4](https://github.com/latonaio/sap-api-integrations-competitor-product-reads-c4)
 
 ##### SQL
 
@@ -32,6 +33,8 @@ sap-sandbox-c4hana は、オンプレミス版である（＝クラウド版で�
 * [sap-api-integrations-business-partner-relationship-reads ](https://github.com/latonaio/sap-api-integrations-business-partner-relationship-reads )
 * [sap-competitor-sql](https://github.com/latonaio/sap-competitor-sql)
 * [sap-product-sql-c4](https://github.com/latonaio/sap-product-sql-c4)
+* [sap-competitor-product-sql](https://github.com/latonaio/sap-competitor-product-sql)
+
 
 ### Touch Points
 ##### READS
